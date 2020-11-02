@@ -10,6 +10,7 @@
 
 # Import modules required for app
 import os
+import pandas
 import boto3
 from flask import Flask, render_template, request
 from models import get_photos, insert_photo, upload_photo

@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "edonis21/photo-album
+    registry = "edonis21/photo-album"
     registryCredential = 'dockerhub'
   }
   agent any
